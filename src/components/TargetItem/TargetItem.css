@@ -1,0 +1,23 @@
+.targetItem {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.targetItem h3 {
+    font-weight: 500;
+    opacity: .8;
+    animation: appear 1s normal;
+    color: hsl(175, 50%, 40%);
+}
+
+.targetItem p {
+    animation: appear 1s normal;
+}
+
+
+@media screen and (max-width: 450px) {
+    .targetItem p {
+        text-align: justify;
+    }
+}

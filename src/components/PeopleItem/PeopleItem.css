@@ -1,0 +1,22 @@
+.peopleItem {
+    background-color: hsl(175, 50%, 40%);
+}
+
+.peopleItemImage {
+    height: 350px;
+    background-color: #F5F5F5;
+}
+
+.peopleItemImage img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.peopleItem ul {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    padding: 1em 2em;
+    color: white;
+}

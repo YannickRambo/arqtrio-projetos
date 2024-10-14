@@ -1,0 +1,11 @@
+.home {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 450px) {
+    .mobileTitle {
+        display: none;
+    }
+}

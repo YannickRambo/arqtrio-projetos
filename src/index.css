@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+#root {
+  position: relative;
+  min-height: 100vh;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+span {
+  font-weight: 500;
+}
+
+.home, .about, .target {
+  padding: 10em 0;
+}
+
+@keyframes appear {
+  0% {
+      transform: translateX(-100px);
+      opacity: .3;
+  }
+  100%{
+      transform: translateX(0px);
+      opacity: 1;
+  }
+}

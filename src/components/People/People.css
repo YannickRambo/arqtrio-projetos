@@ -1,0 +1,12 @@
+.people {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3em;
+}
+
+@media screen and (max-width: 450px) {
+    .people {
+        display: flex;
+        flex-direction: column;
+    }
+}

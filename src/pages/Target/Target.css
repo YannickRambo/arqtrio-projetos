@@ -1,0 +1,11 @@
+.target {
+    min-height: 100vh;
+}
+
+.target ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    list-style: none;
+}
+

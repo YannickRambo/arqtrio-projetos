@@ -1,0 +1,36 @@
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 0;
+    background-color: #D7CDC2;
+    border-top: 2px solid #B5A89B;
+}
+
+.footer h3 {
+    font-weight: 500;
+}
+
+.footer p {
+    text-transform: uppercase;
+}
+
+.logoUniRitter {
+    display: flex;
+}
+
+.logoUniRitter img {
+    height: 50px;
+}
+
+@media screen and (max-width: 450px) {
+    .footer {
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        padding: .5em 0;
+    }
+}

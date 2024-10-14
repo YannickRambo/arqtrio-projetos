@@ -1,0 +1,53 @@
+.sidebar {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 1em 0;
+    background-color: hsl(175, 50%, 40%);
+    transform: translateX(-100%);
+    transition: .3s;
+}
+
+.sidebarHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #A0BFBD;
+}
+
+.sidebarHeader button {
+    display: flex;
+    border: none;
+    background-color: transparent;
+}
+
+.sidebarHeader button svg{
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+
+.sidebarMenu {
+    padding: 1em 0;
+}
+
+.sidebarMenu li{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.sidebarMenuLinks {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+} 
+
+.active {
+    transform: translateX(0px);
+}

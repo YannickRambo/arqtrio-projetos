@@ -1,0 +1,14 @@
+.container {
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    flex-direction: inherit;
+    padding: 0 8em;
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        padding: 0 2em;
+    }
+}

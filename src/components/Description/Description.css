@@ -1,0 +1,13 @@
+.description {
+    margin-bottom: 3em;
+}
+
+.description p {
+    animation: appear 1s normal;
+}
+
+@media screen and (max-width: 450px) {
+    .description p {
+        text-align: justify;
+    }
+}

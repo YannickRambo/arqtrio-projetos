@@ -1,0 +1,61 @@
+.projects {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:
+        "house house house kitchen kitchen kitchen"
+        "house house house livingRoom livingRoom livingRoom"
+        "city city city livingRoom livingRoom livingRoom"
+        "mainRoom mainRoom mainRoom mainRoom room room"
+    ;
+    gap: 1em;
+}
+
+.projects img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: .3;
+    filter: grayscale(100%);
+    animation: add-color forwards;
+    animation-timeline: view();
+    animation-range: entry;
+}
+
+.house {
+    grid-area: house;
+}
+
+.kitchen {
+    grid-area: kitchen;
+}
+
+.city {
+    grid-area: city
+}
+
+.mainRoom {
+    grid-area: mainRoom;
+}
+
+.livingRoom {
+    grid-area: livingRoom;
+}
+
+.room {
+    grid-area: room;
+}
+
+@keyframes add-color {
+    to {
+        filter: grayscale(0%);
+        opacity: 1;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .projects {
+        display: flex;
+        flex-direction: column;
+    }
+}
